@@ -1,0 +1,125 @@
+@
+body
+{
+	margin:0px;
+	box-sizing:border-box;
+	font-family:sans-serif;
+
+}
+.myname
+{
+	font-size:30px;
+	font-family:sans-serif;
+	color:#aa0ced;
+
+}
+.mymenu
+{
+	font-size:20px;
+	color:black;
+	font-weight:bolder;
+}
+.mymenu:hover
+{
+	color:#aa0ced;
+}
+.navbar
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:1;
+}
+.maindiv
+{
+	width:100%;
+	position:absolute;
+	top:0px;
+}
+.dv
+{
+	width: 100%;
+	padding-top: 200px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.home
+{
+	height: 30px;
+	margin-top: 0px;
+	background-image: ;
+	background-size: 40%;
+	background-position: right center;
+}
+.homeinfo
+{
+	margin-top: -10%;
+	margin-left: 4%;
+
+}
+.info
+{
+	font-size: 15px;
+	color: royalblue;
+	font-weight: bolder;
+}
+.infoname
+{
+	font-size: 35px;
+	font-family:red !important
+	color: #aa0ced;
+}
+.infodev
+{
+	font-size: 10px;
+	color:royalblue;
+	font-weight: bolder;
+}
+.btn
+{
+	margin: 0px;
+
+}
+.btn button
+{
+	height: 30px;
+	width: 80px;
+	border: none;
+	background-color:#aa0ced;
+	border-radius:10px;
+	color:white;
+	font-size: 14px;
+	font-weight: bolder;
+
+}
+.btn button:hover
+{
+	background-color:white;
+	color: #e38546;
+	border: 2px solid #aa0ced;
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+.sectionheading
+{
+	color: #823578;
+}
+.tablediv
+{
+	font-weight: bolder;
+	text-align: justify;
+	margin: 0px 50px;
+}
+.myimg
+{
+	border: 2px black;
+}
+.myimg:hover
+{
+	border-radius: 250px;
+	transition-duration: 1s;
+	box-shadow: 0px 0px 15px 15px #e6d3e0;
+}
